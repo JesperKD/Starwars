@@ -12,6 +12,7 @@ namespace Starwars
             List<Planet> planets = LoadData();
             Console.WriteLine("---------------------------------------------------------------------------------------------------");
 
+
             //Opgave 1
             Console.WriteLine("Planeter hvis navn starter med M:\n");
             var mPlanets = planets.Where(x => x.Name.StartsWith("M"));
@@ -20,6 +21,7 @@ namespace Starwars
                 Console.WriteLine(item.Name);
             }
             Console.WriteLine("---------------------------------------------------------------------------------------------------");
+
 
             //Opgave 2
             Console.WriteLine("Planeter hvis navn indeholder Y:\n");
@@ -168,6 +170,7 @@ namespace Starwars
                 Console.WriteLine(item.Name);
             }
             Console.WriteLine("---------------------------------------------------------------------------------------------------");
+
 
             //Opgave 16
             Console.WriteLine("Planeter hvis navn indeholde dobbeltkonsonant:, sorteret efter navn i faldende orden:\n");
